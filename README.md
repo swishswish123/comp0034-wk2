@@ -227,7 +227,7 @@ class User(db.Model):
         self.password = password
 ```
 
-`The relationship between the two tables is defined used the primary and foreign keys with the `relationship` function
+The relationship between the two tables is defined using the primary and foreign keys with the `relationship` function
 as follows:
 
 ```python
